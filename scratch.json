@@ -1,0 +1,168 @@
+{
+	"type": "VoiceCall",
+	"instanceId": "6c91d547-d270-4303-b017-b6c884986ab5",
+	"instanceSpecified": true,
+	"eventMap": {
+		"Change contact status: connected": {
+			"timestamp": 1732726478732,
+			"workflowType": "VoiceCall",
+			"instanceId": "6c91d547-d270-4303-b017-b6c884986ab5",
+			"userId": "90a7e3a5-d8c5-4b01-ab01-e73e809f5fae",
+			"organizationId": "c33e6a94-9a38-41ea-b2c3-e508c2295737",
+			"accountId": "013583357569",
+			"event": "Change contact status: connected",
+			"appName": "CCPv2",
+			"data": [
+				{
+					"key": "UserAgent",
+					"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+				},
+				{
+					"key": "ReferrerUrl",
+					"value": "https://d29hbv4k49wrnf.cloudfront.net"
+				},
+				{
+					"key": "Origin",
+					"value": "https://ghdconnect-prd.my.connect.aws"
+				},
+				{
+					"key": "WindowParent",
+					"value": ""
+				}
+			]
+		},
+		"Click sendDigit": {
+			"timestamp": 1732726500170,
+			"workflowType": "VoiceCall",
+			"instanceId": "6c91d547-d270-4303-b017-b6c884986ab5",
+			"userId": "90a7e3a5-d8c5-4b01-ab01-e73e809f5fae",
+			"organizationId": "c33e6a94-9a38-41ea-b2c3-e508c2295737",
+			"accountId": "013583357569",
+			"event": "Click sendDigit",
+			"appName": "CCPv2",
+			"data": [
+				{
+					"key": "UserAgent",
+					"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+				},
+				{
+					"key": "ReferrerUrl",
+					"value": "https://d29hbv4k49wrnf.cloudfront.net"
+				},
+				{
+					"key": "Origin",
+					"value": "https://ghdconnect-prd.my.connect.aws"
+				},
+				{
+					"key": "WindowParent",
+					"value": ""
+				}
+			]
+		},
+		"ContactEndTime": {
+			"timestamp": 1732726638676,
+			"workflowType": "VoiceCall",
+			"instanceId": "6c91d547-d270-4303-b017-b6c884986ab5",
+			"userId": "90a7e3a5-d8c5-4b01-ab01-e73e809f5fae",
+			"organizationId": "c33e6a94-9a38-41ea-b2c3-e508c2295737",
+			"accountId": "013583357569",
+			"event": "ContactEndTime",
+			"appName": "CCPv2",
+			"data": [
+				{
+					"key": "endTimeAfterConnecting",
+					"value": "161171"
+				},
+				{
+					"key": "connectedTimestamp",
+					"value": "159960"
+				},
+				{
+					"key": "UserAgent",
+					"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+				},
+				{
+					"key": "ReferrerUrl",
+					"value": "https://d29hbv4k49wrnf.cloudfront.net"
+				},
+				{
+					"key": "Origin",
+					"value": "https://ghdconnect-prd.my.connect.aws"
+				},
+				{
+					"key": "WindowParent",
+					"value": ""
+				}
+			]
+		},
+		"Change contact status: ended": {
+			"timestamp": 1732726638678,
+			"workflowType": "VoiceCall",
+			"instanceId": "6c91d547-d270-4303-b017-b6c884986ab5",
+			"userId": "90a7e3a5-d8c5-4b01-ab01-e73e809f5fae",
+			"organizationId": "c33e6a94-9a38-41ea-b2c3-e508c2295737",
+			"accountId": "013583357569",
+			"event": "Change contact status: ended",
+			"appName": "CCPv2",
+			"data": [
+				{
+					"key": "UserAgent",
+					"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+				},
+				{
+					"key": "ReferrerUrl",
+					"value": "https://d29hbv4k49wrnf.cloudfront.net"
+				},
+				{
+					"key": "Origin",
+					"value": "https://ghdconnect-prd.my.connect.aws"
+				},
+				{
+					"key": "WindowParent",
+					"value": ""
+				}
+			]
+		},
+		"DestroyVoiceCall": {
+			"timestamp": 1732726728557,
+			"workflowType": "VoiceCall",
+			"instanceId": "6c91d547-d270-4303-b017-b6c884986ab5",
+			"userId": "90a7e3a5-d8c5-4b01-ab01-e73e809f5fae",
+			"organizationId": "c33e6a94-9a38-41ea-b2c3-e508c2295737",
+			"accountId": "013583357569",
+			"event": "DestroyVoiceCall",
+			"appName": "CCPv2",
+			"data": [
+				{
+					"key": "agentErrorState",
+					"value": "Agent Not In Error State"
+				},
+				{
+					"key": "contactStatus",
+					"value": "destroyed"
+				},
+				{
+					"key": "contactType",
+					"value": "VoiceCall"
+				},
+				{
+					"key": "UserAgent",
+					"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+				},
+				{
+					"key": "ReferrerUrl",
+					"value": "https://d29hbv4k49wrnf.cloudfront.net"
+				},
+				{
+					"key": "Origin",
+					"value": "https://ghdconnect-prd.my.connect.aws"
+				},
+				{
+					"key": "WindowParent",
+					"value": ""
+				}
+			]
+		}
+	},
+	"data": {}
+}
