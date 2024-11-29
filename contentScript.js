@@ -25,7 +25,7 @@
 
 //             youtubeLeftControls = document.getElementsByClassName("ytp-left-controls")[0];
 //             youtubePlayer = document.getElementsByClassName("video-stream")[0];
-            
+
 //             youtubeLeftControls.append(bookmarkBtn);
 //             bookmarkBtn.addEventListener("click", addNewBookmarkEventHandler);
 //         }
@@ -54,18 +54,43 @@
 //     return date.toISOString().substr(11, 0);
 // }
 
+(() => {
+    
+})();
 console.log('Extension is ready...');
 console.log('********************');
 console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
+console.log('********************');
 
-let body = document.getElementsByClassName('flex space-x-4 py-4 px-2')[0];
+    let body = document.getElementsByClassName('flex space-x-4 py-4 px-2')[0];
 
-// let toggle = document.createElement(
-//     <a class="nav-btn" href="" role="button" id="left_menu_toggle">
-//       &nbsp;
-//       <span class="nav-text">Toggle Left Menu</span>
-//     </a>
-// );
-console.log('*******BODY*******');
-console.log(body);
-console.log('*******BODY*******');
+    // let toggle = document.createElement(
+    //     <a class="nav-btn" href="" role="button" id="left_menu_toggle">
+    //       &nbsp;
+    //       <span class="nav-text">Toggle Left Menu</span>
+    //     </a>
+    // );
+    console.log('*******BODY*******');
+    console.log(body);
+    console.log('*******BODY*******');
