@@ -10,26 +10,216 @@
 		/>
 	</head>
 
-    <style>
-        body{
-            margin: 0;
-        }
-    </style>
+	<style>
+		body {
+			line-height: inherit;
+			margin: 0;
+		}
+	</style>
 	<body>
+		<header
+			class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic bg-c-100 mx-0 z-20 css-1r0b017"
+		>
+			<div
+				class="MuiContainer-root MuiContainer-maxWidthXl !max-w-full css-1ekb41w"
+			>
+				<div class="MuiToolbar-root MuiToolbar-regular css-12o98wt">
+					<img
+						src="/static/media/logo.17a833521f5f0c654fbf.png"
+						class="w-10 h-10 mr-4"
+						alt="logo"
+					/><a
+						class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-1qsy3l1"
+						href="/"
+						>Technician CCP Dashboard</a
+					>
+				</div>
+			</div>
+		</header>
 		<div class="flex space-x-4 py-4 px-2 bg-red-500">
-			<div class="w-10/12 flex space-x-4">
-				<div class="w-1/4">
-                    <div class="shadow-custom rounded-lg p-2 mb-4">
-                        <div id="container-div" class="w-full" style="height: 600px">
-                            <iframe
-							src="https://ghdconnect-prd.my.connect.aws/ccp-v2#"
-							allow="microphone; autoplay; clipboard-write"
-							title="Amazon Connect CCP"
-							name="Amazon Connect CCP"
-							style="width: 100%; height: 100%"
-                            ></iframe>
-                        </div>
+			<div class="w-10/12 flex flex-col md:flex-row space-x-4">
+				<div class="sm:w-full">
+					<div class="shadow-custom rounded-lg p-2 mb-4">
+						<div id="container-div" class="w-full" style="height: 600px">
+							<iframe
+								src="https://ghdconnect-prd.my.connect.aws/ccp-v2#"
+								allow="microphone; autoplay; clipboard-write"
+								title="Amazon Connect CCP"
+								name="Amazon Connect CCP"
+								style="width: 100%; height: 100%"
+							></iframe>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Eligendi placeat expedita sequi recusandae odit, quam non. Ex
+								quod reiciendis accusantium commodi voluptatum rerum, quae nisi
+								totam eos, quia rem delectus?
+							</p>
+						</div>
 					</div>
+				</div>
+				<div class="sm:w-full h-full">
+					<!-- customer data -->
+					<div class="shadow-custom rounded-lg p-2 mb-4 bg-yellow-500">
+						<div class="shadow-custom rounded-lg p-2 mb-4">
+							<div class="text-c-100 py-2 mb-2 text-2xl flex items-center">
+								<span class="material-symbols-outlined text-3xl">person</span>
+								<h2 class="text-center font-bold w-full -translate-x-4">
+									Customer Data
+								</h2>
+							</div>
+							<div class="flex">
+								<div class="w-auto bg-gray-100 p-2">
+									<p class="font-bold">TMID</p>
+									<p class="font-bold">Name</p>
+									<p class="font-bold whitespace-nowrap">Job Title</p>
+									<p class="font-bold">BU</p>
+								</div>
+								<div class="w-2/6 px-4 py-2">
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+								</div>
+								<div class="w-auto bg-gray-100 p-2">
+									<p class="font-bold">Manager</p>
+									<p class="font-bold">Location</p>
+									<p class="font-bold">Team</p>
+									<p class="font-bold whitespace-nowrap">Caller ID</p>
+								</div>
+								<div class="w-2/6 px-4 py-2">
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+								</div>
+								<div class="w-auto bg-gray-100 p-2">
+									<p class="font-bold">Queue</p>
+									<p class="font-bold">Options</p>
+								</div>
+								<div class="w-2/6 px-4 py-2">
+									<p class="whitespace-nowrap">-</p>
+									<p class="whitespace-nowrap">-</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- customer data end -->
+					<!-- Orchard now -->
+					<div class="shadow-custom rounded-lg p-2 mb-4 bg-yellow-500">
+						<div class="text-c-100 py-2 mb-2 text-2xl flex items-center">
+							<span class="material-symbols-outlined text-3xl"
+								>format_list_bulleted_add</span
+							>
+							<h2 class="text-center font-bold w-full -translate-x-4">
+								OrchardNow
+							</h2>
+						</div>
+						<div class="undefined">
+							<div class="flex">
+								<h2 class="text-xl py-2">Incidents</h2>
+								<span class="ml-auto cursor-pointer">New Incident+</span>
+							</div>
+							<div
+								class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-13xy2my"
+								style="border-radius: unset"
+							>
+								<table
+									class="MuiTable-root css-1owb465"
+									aria-label="a dense table"
+								>
+									<thead class="MuiTableHead-root css-1wbz3t9">
+										<tr class="MuiTableRow-root MuiTableRow-head css-1gqug66">
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>ID</b>
+											</th>
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>Date</b>
+											</th>
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>Status</b>
+											</th>
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>Description</b>
+											</th>
+										</tr>
+									</thead>
+									<tbody class="MuiTableBody-root css-1xnox0e">
+										<td
+											class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeSmall whitespace-nowrap css-1o6fzn1"
+											colspan="4"
+										>
+											<p class="text-center py-8">No Data</p>
+										</td>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="mt-8">
+							<div class="flex">
+								<h2 class="text-xl py-2">Requests</h2>
+								<span class="ml-auto cursor-pointer"></span>
+							</div>
+							<div
+								class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-13xy2my"
+								style="border-radius: unset"
+							>
+								<table
+									class="MuiTable-root css-1owb465"
+									aria-label="a dense table"
+								>
+									<thead class="MuiTableHead-root css-1wbz3t9">
+										<tr class="MuiTableRow-root MuiTableRow-head css-1gqug66">
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>ID</b>
+											</th>
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>Date</b>
+											</th>
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>Status</b>
+											</th>
+											<th
+												class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeSmall css-13njpue"
+												scope="col"
+											>
+												<b>Description</b>
+											</th>
+										</tr>
+									</thead>
+									<tbody class="MuiTableBody-root css-1xnox0e">
+										<td
+											class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft MuiTableCell-sizeSmall whitespace-nowrap css-1o6fzn1"
+											colspan="4"
+										>
+											<p class="text-center py-8">No Data</p>
+										</td>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<!-- Orchard now end -->
 				</div>
 			</div>
 		</div>
